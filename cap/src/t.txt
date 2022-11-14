@@ -1,0 +1,42 @@
+<Routes basename="/">
+      //     <Navbr />
+      //     <Alert stack={{ limit: 10, spacing: 20 }} onClose={this.setShow} offset={100} />
+      //     {this.state.error ?
+      //       Alert.danger(`${this.state.error}`)
+      //       : this.state.eventsuccess ?
+      //         <>
+      //           {this.state.eventsuccess.map(event => {
+      //             return (
+      //               <>
+      //                 {this.state.eventfails.includes(event) ?
+      //                   Alert.danger(`${event}`)
+      //                   :
+      //                   Alert.success(`${event}`)
+      //                 }
+      //               </>
+      //             )
+      //           })}
+      //         </>
+      //         :
+      //         <></>
+      //     }
+      //     <Route exact path="/" render={(props) => (
+      //       <Dashboard web3={this.state.web3} account={this.state.currentAccount} blind_contract={this.state.blind_contract}  />
+      //     )} />
+      //     <Route exact path="/auctionhouse" render={(props) => (
+      //       <AuctionHouse web3={this.state.web3} account={this.state.currentAccount} blind_contract={this.state.blind_contract} set_string={this.set_string} stringvalue={this.state.stringvalue} />
+      //     )} />
+      //     <Route path="/create" exact render={(props) => (
+      //       <CreateAuctions web3={this.state.web3} account={this.state.currentAccount} blind_contract={this.state.blind_contract}  />
+      //     )} />
+      //     <Route path="/myauctions" exact render={(props) => (
+      //       <MyAuctions web3={this.state.web3} account={this.state.currentAccount}  blind_contract={this.state.blind_contract} set_string={this.set_string} />
+      //     )} />
+      //     <Route path="/mybids" exact render={(props) => (
+      //       <MyBids web3={this.state.web3} account={this.state.currentAccount} blind_contract={this.state.blind_contract} stringvalue={this.state.stringvalue} />
+      //     )} />
+      //     <Route path="/events" exact render={(props) => (
+      //       <AllEvents logs={this.state.logs} />
+      //     )} />
+           
+       </Routes>
